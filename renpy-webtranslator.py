@@ -20,7 +20,7 @@ def caiyun():
         if not ('old "' in line or 'translate ' in line or '# ' in line or line == '\n'):
             rawtext = re.search(r'"(.*?)(?<![^\\\\]\\\\)"', line).group().strip('"')
             inputArea.send_keys(rawtext)
-            time.sleep(random.uniform(2,4)) #可根据网络调整间隔时间
+            time.sleep(random.uniform(3,5)) #可根据网络调整间隔时间
             xpath = '//div[@id=\'texttarget\']/p[1]/span'
             text = browser.find_element_by_xpath(xpath)
             cookedtext = line.replace(rawtext, text.text)
@@ -48,7 +48,7 @@ def youdao():
         if not ('old "' in line or 'translate ' in line or '# ' in line or line == '\n'):
             rawtext = re.search(r'"(.*?)(?<![^\\\\]\\\\)"', line).group().strip('"')
             inputArea.send_keys(rawtext)
-            time.sleep(random.uniform(2,4)) #可根据网络调整间隔时间
+            time.sleep(random.uniform(3,5)) #可根据网络调整间隔时间
             xpath = '//div[@id=\'transTarget\']/p[1]/span'
             text = browser.find_elements_by_xpath(xpath)
             joinedtext = ''
