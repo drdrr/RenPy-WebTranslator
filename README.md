@@ -6,4 +6,8 @@
 
 ### 用法
 
+使用前注意Chrome版本，如果不对请前往
+[此链接](http://npm.taobao.org/mirrors/chromedriver/)
+下载对应的chromedriver.exe
+
 将RenPy翻译文件重命名为trans.txt，与本工具放在同一文件夹下，等待完成即可。
