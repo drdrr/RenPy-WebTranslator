@@ -9,7 +9,7 @@
 使用的selenium版本是3.141.0。4+版本中部分方法已移除，待重写
 
 使用前注意Chrome版本，如果不对请前往
-[此链接](http://npm.taobao.org/mirrors/chromedriver/)
+[此链接](https://registry.npmmirror.com/binary.html?path=chromedriver/)
 下载对应的chromedriver.exe
 
 将RenPy翻译文件重命名为trans.txt，与本工具放在同一文件夹下，等待完成即可。
